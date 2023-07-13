@@ -6,7 +6,7 @@ This repository contains an API implementation that retrieves the list of the to
 
 To use the API, follow these steps:
 
-1. Clone the repository: `git clone [repository URL]`
+1. Clone the repository: `git clone https://github.com/aestheticscoder/Blockchain-Project.git`
 2. Install the required dependencies by running `npm install`
 3. Obtain an API key by visiting the CoinCap documentation: [CoinCap API Documentation](https://docs.coincap.io/)
 4. Set the API key in the API's header as follows:
@@ -28,14 +28,14 @@ To use the API, follow these steps:
 
 The API stores the cryptocurrency coins in a database with the following schema:
 
-```javascript
+
 {
   symbol: { type: String, unique: true },
   name: { type: String, unique: true },
   marketCapUsd: { type: String },
   priceUsd: { type: String }
 }
-```
+
 
 ## Notes
 
