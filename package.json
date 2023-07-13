@@ -1,0 +1,27 @@
+{
+  "name": "mini-blockchain-project",
+  "version": "1.0.0",
+  "description": "The Cryptocurrency API project is an implementation that interacts with the CoinCap API to retrieve data on the top 100 cryptocurrency coins. It provides a single API endpoint that retrieves the list of coins, saves them in a database, and returns the sorted list based on their growth in the last 24 hours. The project aims to provide a simple and convenient way to access and analyze cryptocurrency data.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aestheticscoder/Blockchain-Project.git"
+  },
+  "author": "Vishal Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aestheticscoder/Blockchain-Project/issues"
+  },
+  "homepage": "https://github.com/aestheticscoder/Blockchain-Project#readme",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^7.3.4",
+    "nodemon": "^3.0.1"
+  }
+}
